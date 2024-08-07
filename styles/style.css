@@ -64,14 +64,14 @@ p {
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  padding-top: 128px;
+  margin-top: 128px;
 }
 
 .header__description {
   max-width: 515px;
   font-size: 20px;
   line-height: 30px;
-  padding-top: 32px;
+  margin-top: 32px;
 }
 
 .header__image {
