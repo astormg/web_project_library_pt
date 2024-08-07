@@ -281,8 +281,9 @@ p {
 
 .staff__cards {
   max-width: 760px;
-  margin: 0 0 0 0;
   margin-top: 68px;
+  margin-left: 0;
+  margin-right: 0;
   padding-left: 0;
   display: flex;
   flex-wrap: wrap;
