@@ -265,6 +265,7 @@ p {
   text-align: center;
   font-size: 44px;
   line-height: 52px;
+  font-weight: 400;
   margin: 0 0 24px;
   color: #ffffff;
 }
@@ -274,7 +275,7 @@ p {
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin-bottom: 68px;
+  margin: 0;
   color: #ffffff;
 }
 
