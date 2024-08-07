@@ -36,7 +36,7 @@
   display: flex;
   flex-direction: row;
   column-gap: 20px;
-  list-style: none;
+  list-style-type: none;
 }
 
 .nav__link {
@@ -54,8 +54,13 @@ p {
   margin: 0;
 }
 
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header__title {
-  max-width: 660px;
+  max-width: 635px;
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
@@ -63,7 +68,7 @@ p {
 }
 
 .header__description {
-  max-width: 540px;
+  max-width: 515px;
   font-size: 20px;
   line-height: 30px;
   padding-top: 32px;
