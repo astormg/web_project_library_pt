@@ -257,13 +257,14 @@ p {
   align-items: center;
   background-image: url("../images/staff_picks_background.jpg");
   background-position: center;
-  background-size: contain;
+  background-size: auto;
   background-repeat: no-repeat;
 }
 
 .staff__title {
   text-align: center;
   font-size: 44px;
+  font-weight: bold;
   line-height: 52px;
   margin: 0 0 24px;
   color: #ffffff;
@@ -274,7 +275,7 @@ p {
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin: 0 0 68px;
+  margin-bottom: 68px;
   color: #ffffff;
 }
 
@@ -284,6 +285,8 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
+  justify-content: space-between;
+  list-style-type: none;
 }
 
 .card {
